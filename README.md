@@ -1,0 +1,1 @@
+exercises and remiders from Udemy course https://www.udemy.com/course/aspnetcore-per-tutti here you can find the exercises and reminders I did during the course!! If you have any suggestion feel free to help me :)
