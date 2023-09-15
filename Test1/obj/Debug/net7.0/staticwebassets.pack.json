@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\wwwroot\\logo.svg",
-      "PackagePath": "staticwebassets\\logo.svg"
+      "Id": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Test1.Microsoft.AspNetCore.StaticWebAssets.props",

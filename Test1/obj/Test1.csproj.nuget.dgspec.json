@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\Test1.csproj": {}
+    "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\Test1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\Test1.csproj": {
+    "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\Test1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\Test1.csproj",
+        "projectUniqueName": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\Test1.csproj",
         "projectName": "Test1",
-        "projectPath": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\Test1.csproj",
+        "projectPath": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\Test1.csproj",
         "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\obj\\",
+        "outputPath": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",

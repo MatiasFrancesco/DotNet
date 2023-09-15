@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MgNdLD9FRoJTA3dlDmswOaC0/Hi73CXHlsKRc42CufE=",
+  "Hash": "rQeOd4jwT1/b0BoomkstfWUPr/g+pdR7a0jgJxMW+ZM=",
   "Source": "Test1",
   "BasePath": "_content/Test1",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "Test1\\wwwroot",
       "Source": "Test1",
-      "ContentRoot": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\wwwroot\\",
       "BasePath": "_content/Test1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\wwwroot\\logo.svg",
+      "Identity": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\wwwroot\\logo.png",
       "SourceId": "Test1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\test1\\wwwroot\\",
       "BasePath": "_content/Test1",
-      "RelativePath": "logo.svg",
+      "RelativePath": "logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logo.svg"
+      "OriginalItemSpec": "wwwroot\\logo.png"
     }
   ]
 }
