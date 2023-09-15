@@ -23,3 +23,4 @@ C:\Users\matia\Documents\lavoro\corsi\DotNet\Test1\obj\Debug\net7.0\refint\Test1
 C:\Users\matia\Documents\lavoro\corsi\DotNet\Test1\obj\Debug\net7.0\Test1.pdb
 C:\Users\matia\Documents\lavoro\corsi\DotNet\Test1\obj\Debug\net7.0\Test1.genruntimeconfig.cache
 C:\Users\matia\Documents\lavoro\corsi\DotNet\Test1\obj\Debug\net7.0\ref\Test1.dll
+C:\Users\matia\Documents\lavoro\corsi\DotNet\Test1\bin\Debug\net7.0\Test1.staticwebassets.runtime.json

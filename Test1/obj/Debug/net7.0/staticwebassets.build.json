@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "6+NIlsLGVeeomGVfnbtrOXf6W6t41Ed9se39jpD4PY4=",
+  "Hash": "MgNdLD9FRoJTA3dlDmswOaC0/Hi73CXHlsKRc42CufE=",
   "Source": "Test1",
   "BasePath": "_content/Test1",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Test1\\wwwroot",
+      "Source": "Test1",
+      "ContentRoot": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\wwwroot\\",
+      "BasePath": "_content/Test1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\wwwroot\\logo.svg",
+      "SourceId": "Test1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matia\\Documents\\lavoro\\corsi\\DotNet\\Test1\\wwwroot\\",
+      "BasePath": "_content/Test1",
+      "RelativePath": "logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.svg"
+    }
+  ]
 }

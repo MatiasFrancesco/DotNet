@@ -5,9 +5,13 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
         var app = builder.Build();
 
+        app.UseDeveloperExceptionPage();
+        app.UseStaticFiles();
+
         app.MapGet("/", async (context) =>
         {
-            string nome = context.Request.Query["nome"];
+            string nome = "";
+            nome = context.Request.Query["nome"];
             await context.Response.WriteAsync(text: $"Hello {nome}!");
 
         });
