@@ -8,9 +8,8 @@ namespace MyCourse.Controllers
     {
         public ActionResult Index() {
             var courseService = new CourseService();
-
             List<CourseViewModel> courses = courseService.GetCourses();
-            return View("Views/Courses/Index.cshtml", courses);
+            return View(courses);
         }
     public ActionResult Detail(string id) => /*Content($"I'm Detail, I have recieve the id = {id}")*/ View();
 }
