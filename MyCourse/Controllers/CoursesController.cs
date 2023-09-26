@@ -1,10 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyCourse.Models.Services.Application;
+using MyCourse.Models.ViewModels;
 
 namespace MyCourse.Controllers
 {
     public class CoursesController : Controller
     {
-        public IActionResult Index() => /*Content("I'm Index")*/ View();
-        public IActionResult Detail(string id) => /*Content($"I'm Detail, I have recieve the id = {id}")*/ View();
-    }
+        public ActionResult Index() {
+            var courseService = new CourseService();
+
+            List<CourseViewModel> courses = courseService.GetCourses();
+            return View("Views/Courses/Index.cshtml", courses);
+        }
+    public ActionResult Detail(string id) => /*Content($"I'm Detail, I have recieve the id = {id}")*/ View();
+}
 }

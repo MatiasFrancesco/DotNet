@@ -1,38 +1,40 @@
 ﻿@page
 @model List<CourseViewModel>
-@* @{
-Layout = "_Layout";
-}
-*@
+
 
 
 <h1>Catalogo Corsi</h1>
 
-@for(int i = 0; i < 10; i++){
+@foreach (CourseViewModel course in Model)
+{
     <div class="row">
-    <div class="col-md-1">
-       <img src="~/log.png">
+        <div class="col-md-1">
+            <img src="@course.ImagePath">
+        </div>
+        <div class="col-md-5">
+            <h2>@course.Title</h2>
+            <author>di @course.Author</author>
+        </div>
+        <div class="col-md-2">
+            @for (int i = 1; i < 5; i++)
+            {
+                if (course.Rating >= i)
+                {
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                }
+                else if (course.Rating > i - 1)
+                {
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                }
+            }
+
+        </div>
+        <div class="col-md-2">
+            <s>EUR @course.FullPrice</s> <br> EUR @course.CurrentPrice
+        </div>
+        <div class="col-md-2">
+            <a class="btn btn-outline-primary" asp-action="Detail" asp-route-id="@course.Id">Dettaglio del corso
+                @course.Id</a>
+        </div>
     </div>
-    <div class="col-md-5">
-        <h2>Titolo del corso</h2>
-        <author>di Nome autore</author>
-    </div>
-    <div class="col-md-2">
-       <i class="fa fa-star" aria-hidden="true"></i>
-       <i class="fa fa-star" aria-hidden="true"></i>
-       <i class="fa fa-star" aria-hidden="true"></i>
-       <i class="fa fa-star" aria-hidden="true"></i>
-    </div>
-    <div class="col-md-2">
-       <s>EUR 12,99</s> <br> EUR 10,99
-    </div>
-    <div class="col-md-2">
-        <a class="btn btn-outline-primary" asp-action="Detail" asp-route-id="5">Dettaglio del corso 5</a>
-    </div>
-</div>
 }
-
-
-
-
-
